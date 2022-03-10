@@ -1,0 +1,80 @@
+body {
+    background: rgba(0,0,0,0.9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background-image: url("file:///Users/hang/projects/blureffectlogo/pexels-negative-space-169573.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: centers;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.background:hover {
+    filter: blur(0px);
+}
+
+.background:hover .content {
+    filter: blur(2px);
+}
+
+.content {
+    text-align: center;
+}
+
+.content {
+    width: 300px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 10px;
+}
+
+.services {
+    width: 70%;
+    margin: auto;
+}
+
+.about-us {
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 50px 80px;
+}
+
+.about-us-icon {
+    margin-right: 140px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 20px 0px;
+}
